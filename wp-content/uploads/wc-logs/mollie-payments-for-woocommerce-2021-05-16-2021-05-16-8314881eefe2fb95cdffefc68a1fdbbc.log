@@ -1,0 +1,191 @@
+2021-05-16T18:55:13+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2021-05-16T18:56:35+00:00 DEBUG mollie_wc_gateway_creditcard: Start process_payment for order 853
+2021-05-16T18:56:37+00:00 DEBUG setUserMollieCustomerId: Stored Mollie customer ID cst_v33p626epp with user 1
+2021-05-16T18:56:37+00:00 DEBUG getUserMollieCustomerId: Created a Mollie Customer (cst_v33p626epp) for WordPress user with ID 1 (test).
+2021-05-16T18:56:37+00:00 DEBUG mollie_wc_gateway_creditcard: Create Mollie payment object for order 853
+2021-05-16T18:56:37+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 returnUrl: https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+2021-05-16T18:56:37+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 webhookUrl: https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+2021-05-16T18:56:37+00:00 DEBUG Creating payment object: type Order, first try creating a Mollie Order.
+2021-05-16T18:56:37+00:00 DEBUG Array
+(
+    [amount] => Array
+        (
+            [currency] => USD
+            [value] => 899.99
+        )
+
+    [redirectUrl] => https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+    [webhookUrl] => https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+    [method] => creditcard
+    [payment] => Array
+        (
+            [issuer] => 
+            [customerId] => cst_v33p626epp
+        )
+
+    [locale] => en_US
+    [metadata] => Array
+        (
+            [order_id] => 853
+            [order_number] => 853
+        )
+
+    [orderNumber] => 853
+)
+
+2021-05-16T18:56:37+00:00 DEBUG Creating payment object: type Order, first try failed: [2021-05-16T18:56:37+0000] Error executing API call (422: Unprocessable Entity): The following fields of the billingAddress are missing: postalCode. Field: billingAddress. Documentation: https://docs.mollie.com/guides/handling-errors
+2021-05-16T18:56:37+00:00 DEBUG Creating payment object: type Order, did not fail because of incorrect customerId, so trying Payment now.
+2021-05-16T18:56:37+00:00 DEBUG Creating payment object: type Payment, creating a Payment.
+2021-05-16T18:56:37+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 returnUrl: https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+2021-05-16T18:56:37+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 webhookUrl: https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+2021-05-16T18:56:37+00:00 DEBUG Array
+(
+    [amount] => Array
+        (
+            [currency] => USD
+            [value] => 899.99
+        )
+
+    [description] => Order 853
+    [redirectUrl] => https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+    [webhookUrl] => https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+    [method] => creditcard
+    [issuer] => 
+    [locale] => en_US
+    [dueDate] => 
+    [metadata] => Array
+        (
+            [order_id] => 853
+        )
+
+)
+
+2021-05-16T18:56:38+00:00 DEBUG [2021-05-16T18:56:38+0000] Error executing API call (422: Unprocessable Entity): The webhook URL is invalid because it is unreachable from Mollie's point of view.. Field: webhookUrl. Documentation: https://docs.mollie.com/guides/handling-errors
+2021-05-16T18:56:38+00:00 DEBUG mollie_wc_gateway_creditcard: Failed to create Mollie payment object for order 853: [2021-05-16T18:56:38+0000] Error executing API call (422: Unprocessable Entity): The webhook URL is invalid because it is unreachable from Mollie's point of view.. Field: webhookUrl. Documentation: https://docs.mollie.com/guides/handling-errors
+2021-05-16T18:57:47+00:00 DEBUG mollie_wc_gateway_creditcard: Start process_payment for order 853
+2021-05-16T18:57:48+00:00 DEBUG getUserMollieCustomerId: Mollie Customer ID (cst_v33p626epp) found and valid for user 1 on this API key. (test).
+2021-05-16T18:57:48+00:00 DEBUG mollie_wc_gateway_creditcard: Create Mollie payment object for order 853
+2021-05-16T18:57:48+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 returnUrl: https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+2021-05-16T18:57:48+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 webhookUrl: https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+2021-05-16T18:57:48+00:00 DEBUG Creating payment object: type Order, first try creating a Mollie Order.
+2021-05-16T18:57:48+00:00 DEBUG Array
+(
+    [amount] => Array
+        (
+            [currency] => USD
+            [value] => 899.99
+        )
+
+    [redirectUrl] => https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+    [webhookUrl] => https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+    [method] => creditcard
+    [payment] => Array
+        (
+            [issuer] => 
+            [customerId] => cst_v33p626epp
+        )
+
+    [locale] => en_US
+    [metadata] => Array
+        (
+            [order_id] => 853
+            [order_number] => 853
+        )
+
+    [orderNumber] => 853
+)
+
+2021-05-16T18:57:48+00:00 DEBUG Creating payment object: type Order, first try failed: [2021-05-16T18:57:48+0000] Error executing API call (422: Unprocessable Entity): The following fields of the billingAddress are missing: postalCode. Field: billingAddress. Documentation: https://docs.mollie.com/guides/handling-errors
+2021-05-16T18:57:48+00:00 DEBUG Creating payment object: type Order, did not fail because of incorrect customerId, so trying Payment now.
+2021-05-16T18:57:48+00:00 DEBUG Creating payment object: type Payment, creating a Payment.
+2021-05-16T18:57:48+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 returnUrl: https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+2021-05-16T18:57:48+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 webhookUrl: https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+2021-05-16T18:57:48+00:00 DEBUG Array
+(
+    [amount] => Array
+        (
+            [currency] => USD
+            [value] => 899.99
+        )
+
+    [description] => Order 853
+    [redirectUrl] => https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+    [webhookUrl] => https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+    [method] => creditcard
+    [issuer] => 
+    [locale] => en_US
+    [dueDate] => 
+    [metadata] => Array
+        (
+            [order_id] => 853
+        )
+
+)
+
+2021-05-16T18:57:49+00:00 DEBUG [2021-05-16T18:57:49+0000] Error executing API call (422: Unprocessable Entity): The webhook URL is invalid because it is unreachable from Mollie's point of view.. Field: webhookUrl. Documentation: https://docs.mollie.com/guides/handling-errors
+2021-05-16T18:57:49+00:00 DEBUG mollie_wc_gateway_creditcard: Failed to create Mollie payment object for order 853: [2021-05-16T18:57:49+0000] Error executing API call (422: Unprocessable Entity): The webhook URL is invalid because it is unreachable from Mollie's point of view.. Field: webhookUrl. Documentation: https://docs.mollie.com/guides/handling-errors
+2021-05-16T19:47:10+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2021-05-16T19:50:47+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2021-05-16T19:51:04+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2021-05-16T20:03:54+00:00 DEBUG mollie_wc_gateway_creditcard: Start process_payment for order 853
+2021-05-16T20:04:00+00:00 DEBUG getUserMollieCustomerId: Mollie Customer ID (cst_v33p626epp) found and valid for user 1 on this API key. (test).
+2021-05-16T20:04:00+00:00 DEBUG mollie_wc_gateway_creditcard: Create Mollie payment object for order 853
+2021-05-16T20:04:00+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 returnUrl: https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+2021-05-16T20:04:00+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 webhookUrl: https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+2021-05-16T20:04:00+00:00 DEBUG Creating payment object: type Order, first try creating a Mollie Order.
+2021-05-16T20:04:00+00:00 DEBUG Array
+(
+    [amount] => Array
+        (
+            [currency] => USD
+            [value] => 899.99
+        )
+
+    [redirectUrl] => https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+    [webhookUrl] => https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+    [method] => creditcard
+    [payment] => Array
+        (
+            [issuer] => 
+            [customerId] => cst_v33p626epp
+        )
+
+    [locale] => en_US
+    [metadata] => Array
+        (
+            [order_id] => 853
+            [order_number] => 853
+        )
+
+    [orderNumber] => 853
+)
+
+2021-05-16T20:04:03+00:00 DEBUG Creating payment object: type Order, first try failed: [2021-05-16T20:04:03+0000] Error executing API call (422: Unprocessable Entity): The following fields of the billingAddress are missing: postalCode. Field: billingAddress. Documentation: https://docs.mollie.com/guides/handling-errors
+2021-05-16T20:04:03+00:00 DEBUG Creating payment object: type Order, did not fail because of incorrect customerId, so trying Payment now.
+2021-05-16T20:04:03+00:00 DEBUG Creating payment object: type Payment, creating a Payment.
+2021-05-16T20:04:03+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 returnUrl: https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+2021-05-16T20:04:03+00:00 DEBUG mollie_wc_gateway_creditcard : Order 853 webhookUrl: https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+2021-05-16T20:04:03+00:00 DEBUG Array
+(
+    [amount] => Array
+        (
+            [currency] => USD
+            [value] => 899.99
+        )
+
+    [description] => Order 853
+    [redirectUrl] => https://localhost/pfa/checkout/order-received/853/?key=wc_order_R67rGaH07vW5o&order_id=853&filter_flag=onMollieReturn
+    [webhookUrl] => https://localhost/pfa/wc-api/mollie_wc_gateway_creditcard?order_id=853&key=wc_order_R67rGaH07vW5o&filter_flag
+    [method] => creditcard
+    [issuer] => 
+    [locale] => en_US
+    [dueDate] => 
+    [metadata] => Array
+        (
+            [order_id] => 853
+        )
+
+)
+
+2021-05-16T20:04:04+00:00 DEBUG [2021-05-16T20:04:04+0000] Error executing API call (422: Unprocessable Entity): The webhook URL is invalid because it is unreachable from Mollie's point of view.. Field: webhookUrl. Documentation: https://docs.mollie.com/guides/handling-errors
+2021-05-16T20:04:04+00:00 DEBUG mollie_wc_gateway_creditcard: Failed to create Mollie payment object for order 853: [2021-05-16T20:04:04+0000] Error executing API call (422: Unprocessable Entity): The webhook URL is invalid because it is unreachable from Mollie's point of view.. Field: webhookUrl. Documentation: https://docs.mollie.com/guides/handling-errors
