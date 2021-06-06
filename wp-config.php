@@ -29,7 +29,7 @@ define( 'DB_USER', 'freedbtech_youssef' );
 define( 'DB_PASSWORD', 'mhasniCD33' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'freedb.tech' );
+define( 'DB_HOST', 'localhost:3306' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
